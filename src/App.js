@@ -39,10 +39,10 @@ class App extends Component {
     return (
       <div className="App">
         <h1>Ejercicio 2</h1>
-        <button onClick={this.add} >Add</button>
-        <button onClick={this.substract} >Substract</button>
-        <button onClick={this.divide} >Divide</button>
-        <button onClick={this.reset} >Reset</button>
+        <button className="a1" onClick={this.add} >Add</button>
+        <button className="boton" onClick={this.substract} >Substract</button>
+        <button className="boton" onClick={this.divide} >Divide</button>
+        <button className="boton" onClick={this.reset} >Reset</button>
         <Contador value={this.state.value} division={this.state.division} module={this.state.module} />
 
       </div>

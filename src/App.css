@@ -41,3 +41,23 @@
 div {
   align-items: center;
 }
+.boton {
+  margin: 4px;
+  background-color: black;
+  color: white;
+  padding: 8px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.a1 {
+  background-color: black;
+  color: white;
+  margin: 4px;
+  padding: 8px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  padding-left: 32px;
+  padding-right: 32px;
+}
